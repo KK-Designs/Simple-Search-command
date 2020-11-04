@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+let prefix = "!"
 
 client.once('ready', () => {
   console.log('Ready!');
