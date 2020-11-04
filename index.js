@@ -18,7 +18,7 @@ client.on("message", async message => {
 	    message.channel.send('Pong.');
 	}
   
-  if(command === 'searchweb') {
+  if (command === 'searchweb') {
   /*if there are no arguments provided*/ 
     if (!args.length) {
       return message.reply('Please enter a search (ie: `!searchweb how to make pancakes`)');
@@ -29,7 +29,7 @@ client.on("message", async message => {
     message.channel.send(`Here is your web search result: \n \n ${url}`)
   }
 
-  if(command === 'searchyt') {
+  if (command === 'searchyt') {
   /*if there are no arguments provided*/ 
     if (!args.length) {
       return message.reply('Please enter a search (ie: `!searchyt MrBeast`)');
