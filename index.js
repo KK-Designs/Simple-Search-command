@@ -32,7 +32,7 @@ client.on("message", async message => {
   if(command === 'searchyt') {
   /*if there are no arguments provided*/ 
     if (!args.length) {
-      return message.reply('Please enter a search (ie: `!searchyt poppinpoptarts`)');
+      return message.reply('Please enter a search (ie: `!searchyt MrBeast`)');
     }
     /*if there is a space in search add a '+' to the URL*/ 
     const ytargs = message.content.slice(9).trim().split(' ').join('+');
